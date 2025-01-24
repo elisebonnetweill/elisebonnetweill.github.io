@@ -62,11 +62,16 @@
         }
 
         img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  /* border: 1px solid #ddd; */
+  /*border-radius: 4px; */
   padding: 5px;
   width: 150px;
 }
+
+       #col {
+  column-count: 2;
+}
+
     </style>
 </head>
 <body>
@@ -74,7 +79,23 @@
     <!-- En tête -->
      <div class="header">
          
-  <h1>Elise BONNET-WEILL   <img src="https://elisebonnetweill.github.io/profile.png" alt="Photo"></h1>
+  <h1>Elise BONNET-WEILL  </h1>
+
+         <div id="col">
+  <p>
+    <img src="https://elisebonnetweill.github.io/profile.png" alt="Photo">
+  </p>
+  <p>
+    <h2>Contact</h2>
+    
+    <p>Email: first.last [at] enpc.fr</p>
+    <p> Office : ENPC, Coriolis B309 </p>
+    <p>GitHub: <a href="https://github.com/elisebonnetweill">Elise Bonnet-Weill </a></p> 
+    <p>Last updated: Jan 24th, 2025 </p>
+  </p>
+ 
+</div>
+
     </div> 
     
 
@@ -95,12 +116,7 @@
     
 
     
-    <h2>Contact</h2>
-    
-    <p>Email: first.last [at] enpc.fr</p>
-    <p> Office : ENPC, Coriolis B309 </p>
-    <p>GitHub: <a href="https://github.com/elisebonnetweill">Elise Bonnet-Weill </a></p> 
-    <p>Last updated: Jan 24th, 2025 </p>
+   
     
 </body>
 </html>
